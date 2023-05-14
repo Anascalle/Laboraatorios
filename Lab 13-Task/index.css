@@ -1,0 +1,133 @@
+
+
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgba(128, 128, 128, 0.353);
+    width: 100%;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #task-input {
+    padding: 8px;
+    font-size: 14px;
+    height: 100px;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+  }
+  
+  #task-input::placeholder {
+    position: relative;
+    top: -40px;
+    left: -1px;
+  }
+  
+  /* Estilos para los botones */
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-blue {
+    background-color: #007bff;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn-blue:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-red {
+    background-color: #dc3545;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn-red:hover {
+    background-color: #a51b29;
+  }
+  
+  .btn-delete {
+    border: none;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    line-height: 50%;
+    background-color: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1px; 
+  }
+  
+  .btn-delete:hover {
+    background-color: black;
+    color: #fff;
+  }
+
+  .task {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    
+  }
+  
+  .task p {
+    flex-grow: 1;
+    margin: 0;
+    text-align: justify;
+    padding-right: 20px;
+  }
+  
+  .task .buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .create-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px; 
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+  
